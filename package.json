@@ -1,0 +1,30 @@
+{
+  "name": "try-node-sprite-generator",
+  "version": "0.0.0",
+  "description": "trying this out",
+  "main": "index.js",
+  "scripts": {
+    "test": "test-command"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barrymwong/try-node-sprite-generator"
+  },
+  "keywords": [
+    "sprites"
+  ],
+  "author": "Barry",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/barrymwong/try-node-sprite-generator/issues"
+  },
+  "homepage": "https://github.com/barrymwong/try-node-sprite-generator",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "node-sprite-generator": "~0.3.0",
+    "node-gyp": "~0.12.1",
+    "canvas": "~1.1.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-less": "~0.8.2"
+  }
+}

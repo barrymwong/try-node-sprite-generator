@@ -1,0 +1,214 @@
+body {
+  background-color: #aaa;
+}
+.wizard {
+  background-color: #000;
+  padding: 5px;
+  margin: 5px 0;
+}
+.wizard .icons {
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+}
+.icons {
+  font-style: normal;
+  font-weight: normal;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 16px;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.icons.icons-zoomin::before,
+.icons.icons-zoomout::before,
+.icons.icons-undo::before,
+.icons.icons-redo::before,
+.icons.icons-publish::before,
+.icons.icons-floorplan::before,
+.icons.icons-schedule::before,
+.icons.icons-specialdays::before,
+.icons.icons-dropup::before,
+.icons.icons-dropdown::before,
+.icons.icons-dropright::before,
+.icons.icons-addshift::before,
+.icons.icons-removeshift::before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.icons.icons-addshift::before {
+  background-image: url('../images/sprite.png');
+  background-position: 0 -15px;
+  width: 13px;
+  height: 13px;
+}
+.icons.icons-removeshift::before {
+  background-image: url('../images/sprite.png');
+  background-position: 0 -258px;
+  width: 13px;
+  height: 1px;
+}
+.icons.icons-dropup::before {
+  background-image: url('../images/sprite.png');
+  background-position: 0 -131px;
+  width: 13px;
+  height: 7px;
+}
+.icons.icons-dropdown::before {
+  background-image: url('../images/sprite.png');
+  background-position: 0 -59px;
+  width: 13px;
+  height: 7px;
+}
+.icons.icons-dropright::before {
+  background-image: url('../images/sprite.png');
+  background-position: 0 -98px;
+  width: 7px;
+  height: 13px;
+}
+.icons.icons-specialdays::before {
+  background-image: url('../images/sprite.png');
+  background-position: 0 -304px;
+  width: 24px;
+  height: 24px;
+}
+.icons.icons-schedule::before {
+  background-image: url('../images/sprite.png');
+  background-position: 0 -261px;
+  width: 24px;
+  height: 24px;
+}
+.icons.icons-floorplan::before {
+  background-image: url('../images/sprite.png');
+  background-position: 0 -157px;
+  width: 24px;
+  height: 24px;
+}
+.icons.icons-publish::before {
+  background-image: url('../images/sprite.png');
+  background-position: 0 -217px;
+  width: 24px;
+  height: 22px;
+}
+.icons.icons-undo::before {
+  background-image: url('../images/sprite.png');
+  background-position: 0 -444px;
+  width: 14px;
+  height: 12px;
+}
+.icons.icons-redo::before {
+  background-image: url('../images/sprite.png');
+  background-position: 0 -241px;
+  width: 14px;
+  height: 12px;
+}
+.icons.icons-zoomin::before {
+  background-image: url('../images/sprite.png');
+  background-position: 0 -458px;
+  width: 15px;
+  height: 15px;
+}
+.icons.icons-zoomout::before {
+  background-image: url('../images/sprite.png');
+  background-position: 0 -475px;
+  width: 15px;
+  height: 15px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .icons.icons-addshift::before {
+    background-image: url('../images/sprite2x.png');
+    background-size: 33px 461px;
+    background-position: 0 -14px;
+    width: 13px;
+    height: 13px;
+  }
+  .icons.icons-removeshift::before {
+    background-image: url('../images/sprite2x.png');
+    background-size: 33px 461px;
+    background-position: 0 -239px;
+    width: 13px;
+    height: 1px;
+  }
+  .icons.icons-dropup::before {
+    background-image: url('../images/sprite2x.png');
+    background-size: 33px 461px;
+    background-position: 0 -120px;
+    width: 13px;
+    height: 7px;
+  }
+  .icons.icons-dropright::before {
+    background-image: url('../images/sprite2x.png');
+    background-size: 33px 461px;
+    background-position: 0 -90px;
+    width: 7px;
+    height: 13px;
+  }
+  .icons.icons-dropdown::before {
+    background-image: url('../images/sprite2x.png');
+    background-size: 33px 461px;
+    background-position: 0 -54px;
+    width: 13px;
+    height: 7px;
+  }
+  .icons.icons-specialdays::before {
+    background-image: url('../images/sprite2x.png');
+    background-size: 33px 461px;
+    background-position: 0 -282px;
+    width: 24px;
+    height: 24px;
+  }
+  .icons.icons-floorplan::before {
+    background-image: url('../images/sprite2x.png');
+    background-size: 33px 461px;
+    background-position: 0 -144px;
+    width: 24px;
+    height: 24px;
+  }
+  .icons.icons-publish::before {
+    background-image: url('../images/sprite2x.png');
+    background-size: 33px 461px;
+    background-position: 0 -201px;
+    width: 24px;
+    height: 22px;
+  }
+  .icons.icons-schedule::before {
+    background-image: url('../images/sprite2x.png');
+    background-size: 33px 461px;
+    background-position: 0 -241px;
+    width: 24px;
+    height: 24px;
+  }
+  .icons.icons-redo::before {
+    background-image: url('../images/sprite2x.png');
+    background-size: 33px 461px;
+    background-position: 0 -224px;
+    width: 14px;
+    height: 12px;
+  }
+  .icons.icons-undo::before {
+    background-image: url('../images/sprite2x.png');
+    background-size: 33px 461px;
+    background-position: 0 -418px;
+    width: 14px;
+    height: 12px;
+  }
+  .icons.icons-zoomin::before {
+    background-image: url('../images/sprite2x.png');
+    background-size: 33px 461px;
+    background-position: 0 -431px;
+    width: 14.5px;
+    height: 14.5px;
+  }
+  .icons.icons-zoomout::before {
+    background-image: url('../images/sprite2x.png');
+    background-size: 33px 461px;
+    background-position: 0 -446.5px;
+    width: 14.5px;
+    height: 14.5px;
+  }
+}

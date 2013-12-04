@@ -1,0 +1,37 @@
+@2x-icons-addshift-white: "0 0 13px 13px";
+@2x-icons-addshift: "0 -14px 13px 13px";
+@2x-icons-checkmark: "0 -28px 10px 9px";
+@2x-icons-dropdown-blue: "0 -38px 13px 7px";
+@2x-icons-dropdown-white: "0 -46px 13px 7px";
+@2x-icons-dropdown: "0 -54px 13px 7px";
+@2x-icons-dropright-blue: "0 -62px 7px 13px";
+@2x-icons-dropright-white: "0 -76px 7px 13px";
+@2x-icons-dropright: "0 -90px 7px 13px";
+@2x-icons-dropup-blue: "0 -104px 13px 7px";
+@2x-icons-dropup-white: "0 -112px 13px 7px";
+@2x-icons-dropup: "0 -120px 13px 7px";
+@2x-icons-fittoscreen-out: "0 -128px 14px 15px";
+@2x-icons-floorplan: "0 -144px 24px 24px";
+@2x-icons-hook: "0 -169px 25px 15px";
+@2x-icons-pan: "0 -185px 15px 15px";
+@2x-icons-publish: "0 -201px 24px 22px";
+@2x-icons-redo: "0 -224px 14px 12px";
+@2x-icons-removeshift-white: "0 -237px 13px 1px";
+@2x-icons-removeshift: "0 -239px 13px 1px";
+@2x-icons-schedule: "0 -241px 24px 24px";
+@2x-icons-select: "0 -266px 15px 15px";
+@2x-icons-specialdays: "0 -282px 24px 24px";
+@2x-icons-spinner-large-white: "0 -307px 33px 32px";
+@2x-icons-spinner-large: "0 -340px 33px 32px";
+@2x-icons-spinner-white: "0 -373px 22px 21.5px";
+@2x-icons-spinner: "0 -395.5px 22px 21.5px";
+@2x-icons-undo: "0 -418px 14px 12px";
+@2x-icons-zoomin: "0 -431px 14.5px 14.5px";
+@2x-icons-zoomout: "0 -446.5px 14.5px 14.5px";
+.2x-icons-sprite (@sprite) {
+    background-image: url('../images/sprite2x.png');
+    background-size: 33px 461px;
+    background-position: ~`@{sprite}.split(' ')[0]` ~`@{sprite}.split(' ')[1]`;
+    width: ~`@{sprite}.split(' ')[2]`;
+    height: ~`@{sprite}.split(' ')[3]`;
+}

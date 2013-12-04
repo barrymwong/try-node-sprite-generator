@@ -1,0 +1,12 @@
+.icons.icons-addshift {
+  background-image: url('../public/images/sprite.png');
+  background-position: 0 -13px;
+  width: 13px;
+  height: 13px;
+}
+.icons.icons-addshift {
+  background-image: url('../public/images/sprite.png');
+  background-position: 0 -13px;
+  width: 13px;
+  height: 13px;
+}
