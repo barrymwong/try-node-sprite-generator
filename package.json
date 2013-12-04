@@ -21,10 +21,10 @@
   "homepage": "https://github.com/barrymwong/try-node-sprite-generator",
   "devDependencies": {
     "grunt": "~0.4.2",
-    "node-sprite-generator": "~0.3.0",
     "node-gyp": "~0.12.1",
     "canvas": "~1.1.2",
     "grunt-contrib-watch": "~0.5.3",
-    "grunt-contrib-less": "~0.8.2"
+    "grunt-contrib-less": "~0.8.2",
+    "node-spritesheet": "~0.4.2"
   }
 }

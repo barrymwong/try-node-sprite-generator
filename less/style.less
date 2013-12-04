@@ -1,143 +1,42 @@
-@import 'sprite.less';
-@import 'sprite2x.less';
-
 body {
-	background-color: #aaa;
+	color: #000;
+	background-color: #ccc;
+}
+
+.icons {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-color: rgba(255,255,255,0.5);
+	line-height: 16px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.icons ~ ::before {
+	content: '';
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	line-height: 16px;
+}
+
+.icons {
+	background-image: none !important;
 }
 
 .wizard {
 	background-color: #000;
 	padding: 5px;
 	margin: 5px 0;
-
 	.icons {
 		width: 24px;
 		height: 24px;
-		line-height: 24px;
-	}
-
-}
-
-.icons {
-	font-style: normal;
-	font-weight: normal;
-	display: inline-block;
-	vertical-align: middle;
-	line-height: 16px;
-	width: 16px;
-	height: 16px;
-	text-align: center;
-	background-color: rgba(255, 255, 255, 0.5);
-
-	&.icons-zoomin::before,
-	&.icons-zoomout::before,
-	&.icons-undo::before,
-	&.icons-redo::before,
-	&.icons-publish::before,
-	&.icons-floorplan::before,
-	&.icons-schedule::before,
-	&.icons-specialdays::before,
-	&.icons-dropup::before,
-	&.icons-dropdown::before,
-	&.icons-dropright::before,
-	&.icons-addshift::before,
-	&.icons-removeshift::before {
-		content: '';
-		display: inline-block;
-		vertical-align: middle;
-		background-repeat: no-repeat;
-		overflow: hidden;
-	}
-
-	&.icons-addshift::before {
-		.icons-sprite(@icons-addshift);
-	}
-	&.icons-removeshift::before {
-		.icons-sprite(@icons-removeshift);
-	}
-	&.icons-dropup::before {
-		.icons-sprite(@icons-dropup);
-	}
-	&.icons-dropdown::before {
-		.icons-sprite(@icons-dropdown);
-	}
-	&.icons-dropright::before {
-		.icons-sprite(@icons-dropright);
-	}
-	&.icons-specialdays::before {
-		.icons-sprite(@icons-specialdays);
-	}
-	&.icons-schedule::before {
-		.icons-sprite(@icons-schedule);
-	}
-	&.icons-floorplan::before {
-		.icons-sprite(@icons-floorplan);
-	}
-	&.icons-publish::before {
-		.icons-sprite(@icons-publish);
-	}
-	&.icons-undo::before {
-		.icons-sprite(@icons-undo);
-	}
-	&.icons-redo::before {
-		.icons-sprite(@icons-redo);
-	}
-	&.icons-zoomin::before {
-		.icons-sprite(@icons-zoomin);
-	}
-	&.icons-zoomout::before {
-		.icons-sprite(@icons-zoomout);
 	}
 }
 
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (     -o-min-device-pixel-ratio: 2/1),
-only screen and (        min-device-pixel-ratio: 2),
-only screen and (                min-resolution: 192dpi),
-only screen and (                min-resolution: 2dppx) { 
-  
-	.icons {
-		&.icons-addshift::before {
-			.2x-icons-sprite(@2x-icons-addshift);
-		}
-		&.icons-removeshift::before {
-			.2x-icons-sprite(@2x-icons-removeshift);
-		}
-		&.icons-dropup::before {
-			.2x-icons-sprite(@2x-icons-dropup);
-		}
-		&.icons-dropright::before {
-			.2x-icons-sprite(@2x-icons-dropright);
-		}
-		&.icons-dropdown::before {
-			.2x-icons-sprite(@2x-icons-dropdown);
-		}
-		&.icons-specialdays::before {
-			.2x-icons-sprite(@2x-icons-specialdays);
-		}
-		&.icons-floorplan::before {
-			.2x-icons-sprite(@2x-icons-floorplan);
-		}
-		&.icons-publish::before {
-			.2x-icons-sprite(@2x-icons-publish);
-		}
-		&.icons-schedule::before {
-			.2x-icons-sprite(@2x-icons-schedule);
-		}
-		&.icons-redo::before {
-			.2x-icons-sprite(@2x-icons-redo);
-		}
-		&.icons-undo::before {
-			.2x-icons-sprite(@2x-icons-undo);
-		}
-		&.icons-zoomin::before {
-			.2x-icons-sprite(@2x-icons-zoomin);
-		}
-		&.icons-zoomout::before {
-			.2x-icons-sprite(@2x-icons-zoomout);
-		}
-	}
-
+.icons ~ ::before {
+  background: url( '../images/sprite.png' ) no-repeat;
+  background-size: 112px 96px;
 }

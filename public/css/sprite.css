@@ -1,0 +1,203 @@
+.icons {
+  background: url( '../images/sprite.png' ) no-repeat;
+  background-size: 112px 96px;
+}
+
+.icons.icons-spinner-large::before {
+  width: 33px;
+  height: 32px;
+  background-position: 0px 0px;
+}
+
+.icons.icons-spinner-large-white::before {
+  width: 33px;
+  height: 32px;
+  background-position: -33px 0px;
+}
+
+.icons.icons-hook::before {
+  width: 25px;
+  height: 15px;
+  background-position: 0px -32px;
+}
+
+.icons.icons-specialdays::before {
+  width: 24px;
+  height: 24px;
+  background-position: -66px 0px;
+}
+
+.icons.icons-schedule::before {
+  width: 24px;
+  height: 24px;
+  background-position: 0px -47px;
+}
+
+.icons.icons-floorplan::before {
+  width: 24px;
+  height: 24px;
+  background-position: -24px -47px;
+}
+
+.icons.icons-publish::before {
+  width: 24px;
+  height: 22px;
+  background-position: -66px -24px;
+}
+
+.icons.icons-spinner::before {
+  width: 22px;
+  height: 21px;
+  background-position: -48px -47px;
+}
+
+.icons.icons-spinner-white::before {
+  width: 22px;
+  height: 21px;
+  background-position: -90px 0px;
+}
+
+.icons.icons-zoomin::before {
+  width: 15px;
+  height: 15px;
+  background-position: -90px -21px;
+}
+
+.icons.icons-zoomout::before {
+  width: 15px;
+  height: 15px;
+  background-position: -90px -36px;
+}
+
+.icons.icons-pan::before {
+  width: 15px;
+  height: 15px;
+  background-position: -90px -51px;
+}
+
+.icons.icons-select::before {
+  width: 15px;
+  height: 15px;
+  background-position: -25px -32px;
+}
+
+.icons.icons-fittoscreen-out::before {
+  width: 14px;
+  height: 15px;
+  background-position: -40px -32px;
+}
+
+.icons.icons-fittoscreen-in::before {
+  width: 14px;
+  height: 15px;
+  background-position: -70px -47px;
+}
+
+.icons.icons-undo::before {
+  width: 14px;
+  height: 12px;
+  background-position: 0px -71px;
+}
+
+.icons.icons-redo::before {
+  width: 14px;
+  height: 12px;
+  background-position: -14px -71px;
+}
+
+.icons.icons-addshift::before {
+  width: 13px;
+  height: 13px;
+  background-position: 0px -83px;
+}
+
+.icons.icons-addshift-white::before {
+  width: 13px;
+  height: 13px;
+  background-position: -13px -83px;
+}
+
+.icons.icons-dropright::before {
+  width: 7px;
+  height: 13px;
+  background-position: -105px -21px;
+}
+
+.icons.icons-dropright-white::before {
+  width: 7px;
+  height: 13px;
+  background-position: -105px -36px;
+}
+
+.icons.icons-dropright-blue::before {
+  width: 7px;
+  height: 13px;
+  background-position: -105px -51px;
+}
+
+.icons.icons-dropup-white::before {
+  width: 13px;
+  height: 7px;
+  background-position: -28px -71px;
+}
+
+.icons.icons-dropdown::before {
+  width: 13px;
+  height: 7px;
+  background-position: -41px -71px;
+}
+
+.icons.icons-dropup-blue::before {
+  width: 13px;
+  height: 7px;
+  background-position: -54px -71px;
+}
+
+.icons.icons-dropup::before {
+  width: 13px;
+  height: 7px;
+  background-position: -67px -71px;
+}
+
+.icons.icons-dropdown-white::before {
+  width: 13px;
+  height: 7px;
+  background-position: -80px -71px;
+}
+
+.icons.icons-dropdown-blue::before {
+  width: 13px;
+  height: 7px;
+  background-position: -93px -71px;
+}
+
+.icons.icons-removeshift::before {
+  width: 13px;
+  height: 1px;
+  background-position: -90px -66px;
+}
+
+.icons.icons-removeshift-white::before {
+  width: 13px;
+  height: 1px;
+  background-position: -90px -67px;
+}
+
+.icons.icons-checkmark::before {
+  width: 10px;
+  height: 9px;
+  background-position: -54px -32px;
+}
+
+
+
+@media (min--moz-device-pixel-ratio: 2),
+(-o-min-device-pixel-ratio: 2/1),
+(-webkit-min-device-pixel-ratio: 2),
+(min-device-pixel-ratio: 2) {
+.icons ~ ::before {
+  background: url( '../images/sprite@2x.png' ) no-repeat;
+  background-size: 112px 96px;
+}
+
+}
